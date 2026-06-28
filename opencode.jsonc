@@ -3,8 +3,8 @@
   "model": "ollama/qwen3.5:35b",
   "mcp": {
     "ngrok": {
-      "type": "local",
-      "command": ["npx", "-y", "@ngrok/ngrok-mcp"],
+      "type": "remote",
+      "url": "YOUR_NGROK_URL_HERE",
       "enabled": true
     }
   },
