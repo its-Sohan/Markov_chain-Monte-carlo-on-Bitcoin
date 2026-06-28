@@ -1,0 +1,17 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "provider": {
+    "ollama-colab": {
+      "npm": "@ai-sdk/openai-compatible",
+      "name": "Ollama Colab GPU",
+      "options": {
+        "baseURL": "https://smugness-precision-renegade.ngrok-free.dev/v1"
+      },
+      "models": {
+        "qwen3.5:35b": {
+          "name": "Qwen3 8B (Colab)"
+        }
+      }
+    }
+  }
+}
