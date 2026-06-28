@@ -1,5 +1,13 @@
 {
   "$schema": "https://opencode.ai/config.json",
+  "model": "ollama/qwen3.5:35b",
+  "mcp": {
+    "ngrok": {
+      "type": "local",
+      "command": ["npx", "-y", "@ngrok/ngrok-mcp"],
+      "enabled": true
+    }
+  },
   "references": {
     "docs": {
       "path": ".",
